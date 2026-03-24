@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+.main {
+  display: flex;
+}
+
+img {
+  width: 534px;
+  height: 467px;
+  top: 277.2px;
+  left: 182.18px;
+  opacity: 1;
+  margin: 90px;
+}
+
+.section {
+  width: 582px;
+  height: 164px;
+  top: 342px;
+  left: 801px;
+  opacity: 1;
+  font-size: 30px;
+  margin-top: 130px;
+  color: #161A49;
+  display: block;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+#button {
+  width: 200px;
+  height: 27px;
+  top: 707px;
+  left: 780px;
+  opacity: 1;
+  cursor: pointer;
+  color: #6FBF44;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  margin-top: 60px;
+  display: inline-block;
+
+}
+
+#button:hover {
+  text-decoration: underline;
+}
+
+header {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.88px;
+  margin: 20px 0 0 55px;
+  gap: 50px;
+  display: flex;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 60px;
+}
+
+button {
+  width: 124px;
+  height: 51px;
+  opacity: 1;
+  background: #6FBF44;
+  border: 1px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 23px;
+  line-height: 100%;
+
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+
+
+  header a {
+    display: none;
+  }
+
+  header {
+    justify-content: flex-end;
+    margin: 20px;
+  }
+
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 10px;
+  }
+
+
+  .section {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+
+  p {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+
+  #button,
+  button {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+
+  img {
+    width: 80%;
+    height: auto;
+    margin: 20px 0 0 0;
+    order: 2;
+  }
+
+
+  .section {
+    order: 1;
+  }
+
+}
